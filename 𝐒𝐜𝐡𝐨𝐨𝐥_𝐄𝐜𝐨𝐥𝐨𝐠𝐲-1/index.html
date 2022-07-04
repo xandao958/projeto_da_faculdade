@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">    
+        <title>𝐄𝐜𝐨𝐥𝐨𝐠𝐲</title>
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+    </head>
+<body>
+    <div class="container">             
+        <div class="titulo">
+            <h1 class="borda-texto mb-3">𝐄𝐜𝐨𝐥𝐨𝐠𝐲</h1>
+            <div class="botao">
+              <a class="btn btn-outline-light" href="index.html">𝐋𝐨𝐠𝐢𝐧</a>
+              <a class="btn btn-outline-light" href="cadastro.html">𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨</a>
+              <a class="btn btn-outline-light" href="pagina1.html">𝐒𝐨𝐜𝐢𝐚𝐥</a>
+            </div>
+        </div>
+        <form method="POST" action="php/Realizar_acesso_cliente.php" class="mt-3">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <input name="Nome" type="text" class="form-control" placeholder="Seu nome" required tabindex="0" maxlength="50">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <input name="RA" type="text" class="form-control" placeholder="Seu RA" required tabindex="1" maxlength="7">
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Entrar" class="btn btn-primary">
+        </form> 
+    </div>
+</body>
+</html>
