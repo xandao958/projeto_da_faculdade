@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">    
+        <title>𝐒𝐜𝐡𝐨𝐨𝐥 𝐄𝐜𝐨𝐥𝐨𝐠𝐲</title>
+        <link rel="shortcut icon" href="img/icone.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="aluno.js"></script>
+    </head>
+    
+<body>
+    <form method="POST" action="aluno.php" name="formulario">
+        <div class="container">
+                            
+            <div class="titulo">
+                <h1 class="borda-texto">𝐒𝐜𝐡𝐨𝐨𝐥 𝐄𝐜𝐨𝐥𝐨𝐠𝐲</h1>
+                <br>
+                <div class="botao">
+
+                  <a class="btn btn-outline-light" href="index.html">𝐋𝐨𝐠𝐢𝐧</a>
+                  <a class="btn btn-outline-light" href="pagina1.html">𝐒𝐨𝐜𝐢𝐚𝐥</a>
+                  <a class="btn btn-outline-light" href="pagina2.html">𝐁𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚</a>
+                  <a class="btn btn-outline-light" href="equipe.html">𝐆𝐫𝐮𝐩𝐨</a>
+                
+                </div>
+            </div>      <br><br><br>
+
+            <div class="cadastro">
+
+                <div class="nome">
+                    <b class="nick">𝓝𝓸𝓶𝓮: </b><br>
+                    <input type="text" placeholder="       𝐏𝐫𝐢𝐦𝐞𝐢𝐫𝐨 𝑵𝒐𝒎𝒆"  name="Nome" id="nome"> <br><br>
+                </div>
+
+                <div class="ra">
+                    <b class="nick">𝓡𝓐: </b><br>
+                    <input type="number" placeholder="       𝑪𝒐𝒍𝒐𝒒𝒖𝒆 𝒔𝒆𝒖 𝑹𝒂"  name="Ra" id="ra"> <br><br>
+                </div>
+
+            </div>  <br><br>
+
+            <div class="login">
+                <input class="btn btn-outline-light" type="button" value="    𝐋𝐨𝐠𝐢𝐧    " onclick="validaCampos()">
+            </div>  <br>
+            
+        </div>
+
+    </form>
+</body>
+</html>
