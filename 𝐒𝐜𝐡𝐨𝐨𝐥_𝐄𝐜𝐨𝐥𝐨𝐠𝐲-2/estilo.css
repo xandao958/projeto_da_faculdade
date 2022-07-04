@@ -1,0 +1,243 @@
+body  {  	
+	margin: 0;  	
+	padding: 0;  	
+	background-image: url("img/papel.jpg");
+	}
+
+.container {
+	background-image: url("img/images_6.jpeg");
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 960px;
+	padding: 30px;
+	box-shadow: 0px 25px 50px rgb(0, 0, 0);
+	border: solid 3px rgb(0, 0, 0);
+	border-radius: 30px;
+	}
+
+.titulo {
+	box-shadow: 0px 25px 50px rgb(0, 0, 0);
+	background: rgb(14, 134, 118);
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+	border: solid 3px rgb(0, 0, 0);
+	}
+
+.botao_pesquisa {
+	display: flex;
+	margin-right: 20px;
+	}
+
+.borda-texto {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+	font-size: 3em; color:rgb(255, 255, 255, 0.5);
+}
+
+.botao {
+	display: flex;
+	margin-left: 20px;
+}
+
+.pesquisa {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	
+}
+
+.botao-post {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 20px;
+	background-image: url("img/papel.jpg");
+	border: solid 3px rgb(0, 0, 0);
+	border-radius: 30px;
+	box-shadow: 0px 5px 5px rgb(0, 0, 0);
+	}
+
+.botao-post-1 {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.botao-post-1-1 {
+	display: flex;
+	}
+
+.botao-post-x {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px rgb(0, 0, 0);
+	border-radius: 30px;
+	padding: 20px;
+	background: rgb(14, 134, 118);
+	}
+
+.staus-sub {
+	color: rgb(0, 0, 0);
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border: solid 3px rgb(0, 0, 0);
+	border-radius: 30px;
+	background: rgb(255, 255, 255, 0.8);
+	box-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+
+.botao-post-2 {
+	text-align: center;
+	padding: 10px;
+	background: rgb(14, 134, 118);
+	border-radius: 30px;
+	margin-left: 87.8%;
+	margin-right: auto;
+	border: solid 3px rgb(0, 0, 0);
+}
+
+.equipe {
+	box-shadow: 0px 10px 30px rgb(0, 0, 0);
+	background: rgb(14, 134, 118);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 10px;
+	border-radius: 30px;
+	border: solid 3px rgb(0, 0, 0);
+}
+
+.cadastro {
+	box-shadow: 0px 10px 30px rgb(0, 0, 0);
+	padding-left: 50px;
+	background: rgb(14, 134, 118);
+	padding: 10px;
+	border: solid 3px rgb(0, 0, 0);
+	border-radius: 30px;
+	}
+
+.nome-ra {
+	display: flex;
+}
+
+.nick{
+	color: rgb(0, 0, 0);
+}
+
+.nome {
+	margin-left: auto;
+	padding: auto;
+}
+
+.ra { 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.login	{
+	text-align: center;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0);
+	background: rgb(14, 134, 118);
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 30px;
+	border: solid 3px rgb(0, 0, 0);
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.social {
+	box-shadow: 0px 10px 30px rgb(0, 0, 0);
+	padding-left: 40px;
+	background: rgb(14, 134, 118);
+	padding: 30px;
+	border: solid 3px rgb(0, 0, 0);
+	border-radius: 30px;
+	}
+
+.post {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.2);
+	border: solid 3px rgb(0, 0, 0);
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 0px 5px 5px rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.3);
+	background-image: url("img/papel.jpg");
+	}
+
+.perfil {
+	padding: 10px;
+	margin-left: 15%;
+	margin-right: 15%;	
+	}
+
+.foto_nome-perfil {
+	display: flex;
+	padding: 10px;
+	}
+
+.foto-perfil {
+	margin-left: auto;
+	margin-right: 20px;
+	border-radius: 15px;
+	border: solid 3px rgb(0, 0, 0);
+	box-shadow: 5px 5px 0px rgb(0, 0, 0);
+	width: 100px;
+}
+
+.nome-perfil {
+	border: solid 3px rgb(0, 0, 0);
+	background: rgb(255, 255, 255, 0.8);
+	margin-top: auto;
+	margin-bottom: auto;
+	color: black;
+	margin-right: auto;
+	padding: 15px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+
+.titulo-post {
+	text-align: center;
+}
+
+.foto_texto {
+	text-align: center;
+	
+	}
+
+.foto {
+	border-radius: 30px;
+	border: solid 3px rgb(0, 0, 0);
+	width: 60%;
+}
+
+.texto-post-1 {
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+
+
+.texto-post {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 20px;
+	color: rgb(0, 0, 0);
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 30px;
+	border: solid 3px rgb(0, 0, 0);
+	background: rgb(14, 134, 118);
+}
